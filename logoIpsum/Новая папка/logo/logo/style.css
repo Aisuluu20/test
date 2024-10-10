@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+#haeder {
+  padding: 30px 0;
+  margin: 50px 0;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 30px;
+}
+.header-nav a {
+  font-size: 20px;
+  font-weight: 700;
+  color: #5e5f60;
+  margin: 0 30px;
+}
+.header button {
+  background: rgba(207, 99, 5, 0.957);
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 35px;
+}
+/* header */
+
+/* hero */
+.hero {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 90px 0 0 0;
+}
+
+.hero-text h1 {
+  color: black;
+  width: 262px;
+  height: 131px;
+  font-size: 30px;
+}
+.hero-text p {
+  width: 300px;
+  height: 90px;
+  margin: 0 0 25px 0;
+  font-size: 16px;
+  color: rgb(0, 0, 0, 0.458);
+}
+.hero-text button {
+  width: 200px;
+  height: 35px;
+  border-radius: 10px;
+  padding: 10px 30px;
+  color: white;
+  background: #2d2dec;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* hero */
+/* cards */
+.cards-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin: 90px 30px;
+}
+/* cards */
+/* hero2 */
+.hero2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.hero2-text h1 {
+  color: black;
+  width: 262px;
+  height: 120px;
+  font-size: 35px;
+}
+.hero2-text p {
+  width: 500px;
+  height: 90px;
+  font-size: 16px;
+  color: rgb(0, 0, 0, 0.458);
+}
+.hero2-text h6 {
+  color: rgba(82, 82, 245, 0.815);
+  width: 500;
+  height: 110px;
+  font-size: 16px;
+}
+/* hero22 */
+/* HER3 */
+.hero3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 70px 0;
+}
+.hero3-text h1 {
+  color: black;
+  width: 262px;
+  height: 80px;
+  font-size: 30px;
+}
+.hero3-text p {
+  width: 300px;
+  height: 90px;
+  margin: 0 0 25px 0;
+  color: rgb(0, 0, 0, 0.458);
+}
+.hero3-text h6 {
+  color: rgba(82, 82, 245, 0.815);
+  width: 500;
+  height: 90px;
+  font-size: 16px;
+}
+/* HERO3 */
+/* card-block */
+.card-block {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 30px;
+  transition: 0.9s;
+}
+.card {
+  width: 240px;
+  border-radius: 10px;
+  height: 190px;
+  gap: 30px;
+  padding: 10px 20px;
+  margin: 70px 0;
+  transition: 0.9s;
+}
+.card-block h3 {
+  color: black;
+}
+.card-block p {
+  color: rgba(54, 52, 52, 0.587);
+  font-size: 15px;
+  line-height: 33px;
+}
+.card img:hover {
+  transform: translateY(-90px);
+  transition: 0.9s;
+}
+.card-block :hover {
+  background: transparent;
+  transition: scale(1.2);
+  /* transition: 0.9; */
+}
+/* CARD/ */
+
+.text-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.button {
+  display: flex;
+  margin: 0 20px;
+}
+
+.text h1 {
+  font-weight: 900px;
+  height: 100px;
+}
+
+.text-button button {
+  gap: 8px;
+  padding: 13px 30px;
+  border: none;
+}
+
+.button {
+  border: 4px solid rgba(0, 0, 0, 0.082);
+  border-radius: 13px;
+}
+
+.button button:first-child {
+  background: blue;
+  border-radius: 10px 0px 0px 10px;
+  width: 120px;
+  color: white;
+}
+
+.button button:last-child {
+  background: rgba(0, 0, 0, 0.082);
+  border-radius: 0px 10px 10px 0px;
+  width: 120px;
+  color: black;
+}
+
+/* PRODUCT-CARD */
+#product {
+  padding: 60px 0;
+}
+.product {
+  display: flex;
+  justify-content: space-between;
+}
+.product-card {
+  width: 330px;
+  height: 441px;
+  background: rgba(248, 248, 248, 1);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  transition: 0.8s;
+}
+.product-card:hover {
+  background: rgb(235, 108, 4);
+  color: white;
+  transform: scale(1.1);
+}
+.product-card h1 {
+  color: rgb(42, 43, 46);
+  font-size: 40px;
+}
+.product-card h4 {
+  color: rgb(44, 43, 52);
+  font-size: 18px;
+  margin: 10px 0;
+}
+.product-card button {
+  display: flex;
+  margin: 10px 0px;
+  padding: 18px 35%;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  background-color: white;
+}
+.product-card button:hover {
+  background: rgb(134, 52, 1);
+  color: white;
+}
